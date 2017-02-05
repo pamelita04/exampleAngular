@@ -1,0 +1,11 @@
+<div>
+    {{ $ctrl.name }}
+    <button type="button" ng-click="$ctrl.walk()">Send</button>
+    <ul>
+        <li ng-repeat="list in $ctrl.lists" >
+            {{ list.name }}
+        </li>
+    </ul>
+    
+
+</div>
